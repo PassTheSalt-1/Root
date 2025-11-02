@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}{{title}}{% endblock %} 
+
+{% block content %} 
+    <h1>Welcome to my Flask App!</h1>
+    <h2>Testing Testing!</h2>
+    <p>Modular server page concept with HTML</p>
+
+    <h2>Projects</h2>
+    <ul>
+        {% for project in projects %}
+            <li>
+                <strong>{{ project.name }}</strong>: {{ project.description }}
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

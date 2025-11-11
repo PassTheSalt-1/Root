@@ -1,0 +1,126 @@
+2025-11-11 22:51:20,624 [ERROR] Request finalizing failed with an error while handling an error in /home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py:948
+Traceback (most recent call last):
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 941, in finalize_request
+    response = self.process_response(response)
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1322, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/sessions.py", line 364, in save_session
+    response.vary.add("Cookie")
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vary'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 941, in finalize_request
+    response = self.process_response(response)
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1322, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/sessions.py", line 364, in save_session
+    response.vary.add("Cookie")
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vary'
+2025-11-11 22:51:21,445 [ERROR] Exception on /projects [GET] in /home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py:875
+Traceback (most recent call last):
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 941, in finalize_request
+    response = self.process_response(response)
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1322, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/sessions.py", line 364, in save_session
+    response.vary.add("Cookie")
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vary'
+2025-11-11 22:51:21,446 [ERROR] Request finalizing failed with an error while handling an error in /home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py:948
+Traceback (most recent call last):
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 941, in finalize_request
+    response = self.process_response(response)
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1322, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/sessions.py", line 364, in save_session
+    response.vary.add("Cookie")
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vary'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 941, in finalize_request
+    response = self.process_response(response)
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/app.py", line 1322, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Hit/Projects/venv/lib/python3.13/site-packages/flask/sessions.py", line 364, in save_session
+    response.vary.add("Cookie")
+    ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'vary'
+2025-11-11 22:51:22,006 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:64
+2025-11-11 22:51:32,123 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:32,117 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:32,121 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:32,148 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:34,300 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:64
+2025-11-11 22:51:45,450 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:45,459 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:45,719 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:45,746 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:51:47,394 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:63
+2025-11-11 22:51:51,540 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:63
+2025-11-11 22:51:51,541 [INFO] Login attempt with username: admin in /home/Hit/Projects/simple_http_server.py:67
+2025-11-11 22:51:51,543 [INFO] Successful login with username: admin in /home/Hit/Projects/simple_http_server.py:71
+2025-11-11 22:51:53,401 [INFO] User admin has logged out. in /home/Hit/Projects/simple_http_server.py:106
+2025-11-11 22:51:53,417 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:63
+2025-11-11 22:52:46,313 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:52:46,313 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:59:58,647 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:59:58,660 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:59:58,647 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 22:59:58,658 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 23:00:14,944 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:65
+2025-11-11 23:01:32,022 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:65
+2025-11-11 23:01:32,032 [INFO] Login attempt with username: admin in /home/Hit/Projects/simple_http_server.py:69
+2025-11-11 23:01:32,032 [INFO] Successful login with username: admin in /home/Hit/Projects/simple_http_server.py:73
+2025-11-11 23:01:43,606 [INFO] User admin has logged out. in /home/Hit/Projects/simple_http_server.py:110
+2025-11-11 23:01:43,851 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:65
+2025-11-11 23:02:07,478 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:65
+2025-11-11 23:02:10,915 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:65
+2025-11-11 23:02:10,915 [INFO] Login attempt with username: admin in /home/Hit/Projects/simple_http_server.py:69
+2025-11-11 23:02:10,915 [INFO] Successful login with username: admin in /home/Hit/Projects/simple_http_server.py:73
+2025-11-11 23:04:05,783 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 23:04:05,786 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 23:04:05,784 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 23:04:05,825 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:32
+2025-11-11 23:06:10,511 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:10,512 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:10,514 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:10,698 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:35,225 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:35,851 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:35,931 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:06:35,953 [INFO] Flask application startup complete in /home/Hit/Projects/simple_http_server.py:40
+2025-11-11 23:07:10,067 [INFO] User admin has logged out. in /home/Hit/Projects/simple_http_server.py:113
+2025-11-11 23:07:10,261 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
+2025-11-11 23:07:11,549 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
+2025-11-11 23:07:14,402 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
+2025-11-11 23:07:15,899 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
+2025-11-11 23:07:18,145 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
+2025-11-11 23:07:19,177 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
+2025-11-11 23:07:21,820 [INFO] Login page accessed. in /home/Hit/Projects/simple_http_server.py:68
